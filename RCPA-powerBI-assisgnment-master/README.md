@@ -1,11 +1,11 @@
 # Prescription Performance Dashboard (Power BI)
 
-## 📊 Project Overview
+## Project Overview
 
 **Goal:**  
 Create a dynamic Power BI dashboard to analyze prescription performance by **doctor**, **brand**, **region**, and **medical representative**, and to understand **doctor conversion** and **brand competition** trends.
 
-### 🎯 Objectives
+### Objectives
 - Clean & transform raw RCPA data.  
 - Build a structured data model with relationships.  
 - Generate insightful visuals using DAX and Power BI visuals.  
@@ -13,7 +13,7 @@ Create a dynamic Power BI dashboard to analyze prescription performance by **doc
 
 ---
 
-## 🧾 Dataset Summary
+## Dataset Summary
 
 The project uses data from **three main tables**:
 - **RCPA Reporting Form**  
@@ -22,15 +22,15 @@ The project uses data from **three main tables**:
 
 ---
 
-## ⚙️ Step 1: Data Preparation & ETL (Power Query)
+## Step 1: Data Preparation & ETL (Power Query)
 
-### 🔹 Import Data Sources
+###  Import Data Sources
 1. Load all required files: `RCPA_Reporting_Form`, `Product_Master`, and `Brand_Targets`.  
 2. In Power BI:  
    `Home → Get Data → Excel/CSV/SQL` → Select your files.  
 3. Choose **Transform Data** to open **Power Query Editor**.  
 
-### 🧹 Cleaning & Transformation Tasks
+### Cleaning & Transformation Tasks
 
 1. **Unpivot Columns**  
    - Columns containing *Med Rep* and *Doctor*  
@@ -54,7 +54,7 @@ The project uses data from **three main tables**:
 
 ---
 
-## 🧩 Step 2: Creating Relationships
+## Step 2: Creating Relationships
 
 Your Power BI model should now include:
 
@@ -63,11 +63,11 @@ Your Power BI model should now include:
 3. `Competitor_RCPA_Data`  
 4. `Brand_Targets`
 
-### ➕ Additional Dimension Tables
+### Additional Dimension Tables
 - **Doctor Table** – from doctor names in both RCPA tables.  
 - **Region_Dim** – from region fields.
 
-### 🔗 Relationships (Star Schema)
+### Relationships (Star Schema)
 
 | From | To | Type | Cardinality |
 |------|----|------|--------------|
@@ -83,7 +83,7 @@ All relationships are tested and configured for correct cross-filtering.
 
 ---
 
-## 📈 Step 3: Building Visualizations
+## Step 3: Building Visualizations
 
 ### 1. **Doctor Prescription Performance**
 
@@ -226,7 +226,7 @@ Competitor Share % = DIVIDE([Competitor Rx Qty], [Total Rx Qty], 0)
 
 ---
 
-## 🧠 Insights & Takeaways
+## Insights & Takeaways
 - Identify **top-performing doctors** and **sales reps** by Rx volume.  
 - Detect **conversion trends** among doctors.  
 - Monitor **brand share** and **regional dominance**.  
@@ -234,7 +234,7 @@ Competitor Share % = DIVIDE([Competitor Rx Qty], [Total Rx Qty], 0)
 
 ---
 
-## 🧩 Tools & Technologies
+## Tools & Technologies
 - **Power BI Desktop**  
 - **Power Query**  
 - **DAX (Data Analysis Expressions)**  
@@ -247,9 +247,6 @@ Our Dashboard
 
 ## Author
 **Rael Mwiti**  
-Power BI Developer | Data Analyst  
-📧 Kenyansafelix"gmail.com  
-📍 Kenya  
 
 **Contributors**
 Felix Amenya,
