@@ -245,14 +245,14 @@ Our Dashboard
 
 ---
 
-## 👨‍💻 Author
-**Felix Amenya**  
+## Author
+**Rael Mwiti**  
 Power BI Developer | Data Analyst  
 📧 Kenyansafelix"gmail.com  
 📍 Kenya  
 
 **Contributors**
-Rael Mwiti,
+Felix Amenya,
 Kennedy Kasyoki,
 Rana Nicholus,
 L. Muthoni.
